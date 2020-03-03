@@ -3,3 +3,4 @@ env
 get-pip.py
 latian.py
 to-do-list.txt
+.gitignore
