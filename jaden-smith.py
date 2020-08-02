@@ -26,10 +26,13 @@ def to_jaden_case(string):
 
     for iteration in container:
         each_letter = list(iteration)
+        print(each_letter) # iteration every letter when the sentence is passed down
         each_letter[0] = each_letter[0].upper()
+        print(each_letter[0]) # print the first letter from every word
         string_list.append(''.join(each_letter))
+        print(string_list) # combine all of those modifications letter into one new sentence
     
-    return ' '.join(string_list)
+    return ' '.join(string_list) #added space for the sentence 
 
 sentence = 'oneletteronly'
 sentence = 'space that you need'
